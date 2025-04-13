@@ -1,0 +1,324 @@
+
+@media (max-width: 1012px) {
+
+    & .nav{
+
+        & .waiting-btn{
+            display: none;
+        }
+    }
+
+    & .hero{
+        padding: 15% 0 7% 0 !important;
+
+        & .hero-upper-section{
+
+            & .waiting-btn{
+                display: block !important;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .spots {
+        position: static;
+    }
+
+    & .nav{
+
+        margin-top: 0 !important;
+        position: static !important;
+
+        & .applications-text,
+        & .applications-number{
+            display: none;
+        }
+
+        .navbar-toggler{
+            color: #0A0A0A !important;
+            border:1px solid #0A0A0A  !important;
+        }
+        
+    }
+
+    & .hero{
+
+        padding: 15% 0 7% 0 !important;
+        position: static !important;
+
+
+        & .hero-bottom-section{
+            position: static !important;
+            margin:5% 3%;
+            width: auto !important;
+            transform: none !important;
+            padding: 0 !important;
+
+        }
+    }
+
+    #navigation{
+        padding: 0 2% !important;
+        margin-top: 0 !important;
+        z-index: 800;
+        top: 0 !important;
+    }
+
+
+    #modules {
+        & h2 {
+            text-align: center !important;
+        }
+    }
+
+    #modulesCarousel{
+
+        .carousel-indicators{
+            overflow-x: auto;
+            white-space: nowrap;
+            max-width: 100%;
+            scroll-behavior: smooth;
+        }
+        
+        .carousel-control-prev,
+        .carousel-control-next{
+            position: static !important;
+        }
+
+        .carousel-item{
+            overflow-y: auto;
+        }
+    }
+
+    #calculator {
+        & .left-side {
+            & h2 {
+                text-align: center !important;
+            }
+
+            & p {
+                text-align: center !important;
+            }
+        }
+
+    }
+
+}
+
+@media (max-width: 500px) {
+    #navigation{
+        display: none !important;
+    }
+}
+
+@media (max-width: 435px) {
+    .spots {
+        display: none !important;
+    }
+
+    .nav-hero {
+        & .nav {
+            padding: 0 !important;
+
+        }
+
+        & .hero {
+
+            & .hero-upper-section {
+                & h1 {
+                    font-size: 26px;
+                }
+            }
+        }
+    }
+
+    #navigation{
+        display: none !important;
+    }
+
+    #experience{
+        padding: 5% 0% !important;
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #techSchool{
+        padding: 5% 0% !important;
+    }
+
+    #programBreakdown{
+    
+        & .intro{
+
+            & .left-side{
+                & h1{
+                    font-size: 28px;
+                }
+            }
+    
+            & .right-side{
+                & p{
+                    font-size: 16px;
+                }
+            }
+        }
+    
+        & .card{
+            border: none;
+            border-radius: 24px;
+            padding: 5%;
+            height: 100%;
+    
+            & img{
+                max-width: 86px;
+                max-height: 86px;
+            }
+        }
+    
+        & .left-side{
+            height: 100%;
+    
+            & .yellow-card{
+                background-color: #FFE15A;
+    
+    
+                & p{
+                   font-size: 16px;
+                }
+            }
+        }
+    
+        & .right-side{
+            & .lightyellow-card{
+    
+    
+                & p{
+                   font-size: 16px;
+                }
+            }
+    
+            & .white-card{
+    
+                & p{
+                   font-size: 16px;
+                }
+            }
+        }
+    
+        & .bottom-side{
+            & p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #realWorldExperience{
+    
+        & .left-side{
+            & img{
+                margin-bottom: 5% !important;
+            }
+        }
+    
+        & .right-side{
+    
+            & h2{
+                font-size: 28px;
+            }
+    
+            & p{
+                font-size: 18px;
+            }
+    
+            & h3{
+                font-size: 22px;
+            }
+    
+            & ul>li{
+                font-size: 16px;
+            }
+    
+            & span{
+                font-weight: 800;
+            }
+        }
+    
+    
+    }
+
+    #flexibleOptions{
+    
+        & .flexible-options-inner{
+    
+            & .intro{
+                text-align: center;
+    
+                & h3{
+                    font-size: 28px;
+                }
+    
+                & p{
+                    font-size: 18px;
+                }
+            }
+    
+            & .card{
+                padding: 5%;
+            }
+    
+        }
+    }
+
+    #calculator {
+        & .right-side {
+            & .calc-top {
+                & #chooseOption {
+                    & label {
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        text-wrap: nowrap;
+                        padding: 2% 5%;
+                        width: 100% !important;
+                    }
+                }
+            }
+
+            & .calc-bottom{
+    
+                & .calc-bottom-left{
+                    & #installments{
+                        width: 30vw;   
+                    }
+                }
+    
+    
+            }
+          
+        }
+
+    }
+
+    #furtherGuidance{
+        padding: 5% 0% !important;
+    }
+  
+
+
+    .row{
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+
+
+
+
+   
+
+
+}
